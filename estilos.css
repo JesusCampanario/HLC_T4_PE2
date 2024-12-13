@@ -19,9 +19,10 @@
     border: 0;
     border-radius: 5px;
     padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 5%;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 body {
     margin: 0;
@@ -39,7 +40,7 @@ body {
     justify-content: center;
 }
 .mensaje {
-    padding-top: 25px;
+    padding-top: 15px;
     justify-content: center;
     justify-items: center;
     border-radius: 4px;
@@ -52,7 +53,9 @@ body {
 }
 input {
     padding: 15px;
+    border: 0,1px;
     border-radius: 4px;
+    border-color: rgba(189, 189, 189, 0.829);
     width: 70%;
     justify-content: center;
     justify-items: center;
