@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu {
+    background-color: #85CEF0;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.menu button {
+    width: 50%;
+    background-color: #E2E5E7;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5%;
+    cursor: pointer;
+    
+}
+body {
+    margin: 0;
+    background-color: #E2E5E7;
+}
+
+.chat {
+    margin: 25px;
+    margin-left: 55px;
+    background-color: #F8F8FF;
+    width: 70%;
+    padding-left: 70px;
+    box-shadow: 2px 3px 10px grey;
+    margin: 5%;
+    justify-content: center;
+}
+.mensaje {
+    padding-top: 25px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 4px;
+    margin: 0%;
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 100%;
+    background-color: #E2E5E7;
+     
+}
+input {
+    padding: 15px;
+    border-radius: 4px;
+    width: 70%;
+    justify-content: center;
+    justify-items: center;
+    margin: 25px;    
+}
+button {
+    background-color: #F9DC6A;
+    border: 0;
+    border-radius: 4px;
+    padding: 15px;
+    cursor: pointer;
+}
